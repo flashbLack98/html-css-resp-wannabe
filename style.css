@@ -76,14 +76,35 @@ img {
 /* MEDIA QUERY */
 
 @media screen and (max-width:420px){
-  .row {
+  #lezioni .row {
     background-color: lightgoldenrodyellow;
   }
 }
 
 @media screen and (max-width:420px){
-  #lezioni .row>.left, #lezioni .row>.right {
+  #lezioni .row>.left, #lezioni .row>.right, #steps .row>.left, #steps .row>.central, #steps .row>.right {
     float: none;
     margin: auto;
+    width: 100%;
+    padding-bottom: 20px;
+    font-size: xx-large;
+  }
+}
+
+@media screen and (max-width:420px){
+  h1 {
+    font-size: xxx-large;
+  }
+}
+
+@media screen and (max-width:420px){
+  #steps .row {
+    background-color: white;
+  }
+}
+
+@media screen and (max-width:420px){
+  #why .row {
+    background-color: lightgoldenrodyellow;
   }
 }
