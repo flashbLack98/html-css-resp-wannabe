@@ -1,5 +1,5 @@
 .row {
-  width: 992px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
@@ -89,12 +89,13 @@ img {
   #lezioni .row>.left, #lezioni .row>.right, #steps .row>.left, #steps .row>.central, #steps .row>.right {
     float: none;
     margin: auto;
+    width: 100%;
     padding-bottom: 20px;
-    font-size: xx-large;
+    font-size: large;
   }
   
   h1 {
-    font-size: xxx-large;
+    font-size: xx-large;
     padding-top: 20px;
   }
 
@@ -108,11 +109,11 @@ img {
 
   #why .row {
     background-color: lightgoldenrodyellow;
-    font-size: xx-large;
+    font-size: large;
   }
 
   h3 {
-    font-size: xx-large;
+    font-size: x-large;
   }
 }
 
